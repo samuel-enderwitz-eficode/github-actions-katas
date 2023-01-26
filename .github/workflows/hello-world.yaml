@@ -38,7 +38,7 @@ jobs:
     runs-on: ubuntu-latest
     needs: [Build]
     permissions:
-      package: write
+      packages: write
     steps:
       - name: Download Repo
         uses: actions/download-artifact@v3
